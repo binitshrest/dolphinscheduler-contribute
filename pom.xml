@@ -318,7 +318,6 @@
                 <groupId>org.apache.dolphinscheduler</groupId>
                 <artifactId>dolphinscheduler-dao-mysql</artifactId>
                 <version>${project.version}</version>
-                <scope>compile</scope>
             </dependency>
 
             <dependency>
