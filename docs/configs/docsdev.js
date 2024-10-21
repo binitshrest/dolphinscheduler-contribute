@@ -262,10 +262,6 @@ export default {
                                 title: 'File Parameter',
                                 link: '/en-us/docs/dev/user_doc/guide/parameter/file-parameter.html',
                             },
-                            {
-                                title: 'Vertica',
-                                link: '/en-us/docs/dev/user_doc/guide/datasource/vertica.html',
-                            },
                         ],
                     },
                     {
@@ -358,6 +354,10 @@ export default {
                             {
                                 title: 'doris',
                                 link: '/en-us/docs/dev/user_doc/guide/datasource/doris.html',
+                            },
+                            {
+                                title: 'Vertica',
+                                link: '/en-us/docs/dev/user_doc/guide/datasource/vertica.html',
                             }
                         ],
                     },
@@ -578,6 +578,10 @@ export default {
                     {
                         title: 'Join',
                         children: [
+                            {
+                                title: 'Security model',
+                                link: '/en-us/docs/dev/user_doc/contribute/join/security-model.html',
+                            },
                             {
                                 title: 'Security Report',
                                 link: '/en-us/docs/dev/user_doc/contribute/join/security.html',
@@ -941,10 +945,6 @@ export default {
                                 link: '/zh-cn/docs/dev/user_doc/guide/task/linkis.html',
                             },
                             {
-                                title: 'Vertica',
-                                link: '/zh-cn/docs/dev/user_doc/guide/datasource/vertica.html',
-                            },
-                            {
                                 title: 'Remote Shell',
                                 link: '/zh-cn/docs/dev/user_doc/guide/task/remoteshell.html',
                             },
@@ -1057,7 +1057,11 @@ export default {
                             {
                                 title: 'Doris',
                                 link: '/zh-cn/docs/dev/user_doc/guide/datasource/doris.html',
-                            }
+                            },
+                            {
+                                title: 'Vertica',
+                                link: '/zh-cn/docs/dev/user_doc/guide/datasource/vertica.html',
+                            },
                         ],
                     },
                     {
@@ -1277,6 +1281,10 @@ export default {
                     {
                         title: '如何参与',
                         children: [
+                            {
+                                title: '安全模型',
+                                link: '/zh-cn/docs/dev/user_doc/contribute/join/security-model.html',
+                            },
                             {
                                 title: '报告安全问题',
                                 link: '/zh-cn/docs/dev/user_doc/contribute/join/security.html',
